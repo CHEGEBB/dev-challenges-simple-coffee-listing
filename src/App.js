@@ -1,3 +1,10 @@
+import React from 'react';
+import Card from './components/cards/cards';
+import starsFill from './images/Star_fill.svg';
+import star from './images/Star.svg';
+import './Card.scss'
+
+
 function App() {
   return (
     <div className="App">
@@ -10,37 +17,8 @@ function App() {
         </p>
         <button>All Products</button>
         <button>Available Now</button>
-        <div className="all-products">
-          <div className="products-row-one">
-            <div className="product">
-              <h2>Popular</h2>
-              <p>Product 1 Description</p>
-            </div>
-            <div className="product">
-              <h2>Popular</h2>
-              <p>Product 2 Description</p>
-            </div>
-            <div className="product">
-              <h2>Popular</h2>
-              <p>Product 3 Description</p>
-            </div>
-          </div>
-          <div className="products-row-two">
-            <div className="product">
-              <h2>Popular</h2>
-              <p>Product 4 Description</p>
-            </div>
-            <div className="product">
-              <h2>Popular</h2>
-              <p>Product 5 Description</p>
-            </div>
-            <div className="product">
-              <h2>Popular</h2>
-              <p>Product 6 Description</p>
-            </div>
-            </div>
-        </div>
-      </div>
+        <Card />
+    </div>
     </div>
   );
 }
