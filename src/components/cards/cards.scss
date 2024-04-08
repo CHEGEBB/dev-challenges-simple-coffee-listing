@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+body {
+  font-family: "DM Sans", sans-serif;
+  color: aliceblue;
+}
+
+.product-container {
+  margin: 100px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 0;
+
+  @media screen and (max-width: 1025px) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  @media screen and (max-width: 641px) {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+.card {
+  position: relative;
+  width: 300px;
+  border-radius: 8px;
+  padding: 10px;
+  margin: auto;
+
+  img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+
+  .popular {
+    position: absolute;
+    top: -10px;
+    background-color: #ffdd57;
+    color: #333;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 12px;
+  }
+
+  h2 {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-size: medium;
+  }
+
+  p {
+    margin: 5px 0;
+  }
+
+  p.rating {
+    display: inline-block;
+    position: relative;
+    top: -30px;
+    left: 20px;
+
+    > span {
+      color: grey;
+    }
+  }
+
+  p.availability {
+    display: inline-block;
+    margin-left: 100px;
+    color: orangered;
+    position: absolute;
+    bottom: 38px;
+  }
+
+  h2.name {
+    font-size: 1.3rem;
+  }
+
+  .card-details {
+    margin-top: -35px;
+  }
+
+  .card-info {
+    position: relative;
+  }
+
+  .price {
+    position: absolute;
+    right: 0;
+    top: -23px;
+    background-color: teal;
+    border-radius: 12px;
+    padding: 5px 10px;
+  }
+
+  .stars {
+    position: relative;
+    width: 20px;
+  }
+}

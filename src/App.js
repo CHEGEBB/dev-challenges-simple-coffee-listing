@@ -1,8 +1,6 @@
 import React from 'react';
-import Card from './components/cards/cards';
-import starsFill from './images/Star_fill.svg';
-import star from './images/Star.svg';
-import './Card.scss'
+import {Card} from './components/cards/cards';
+import './cards.scss'
 
 
 function App() {
@@ -15,9 +13,10 @@ function App() {
           different roast types and origins, expertly roasted in small batches
           and shipped fresh weekly.
         </p>
-        <button>All Products</button>
-        <button>Available Now</button>
+        <div className='span-container'> <span className='all'>All Products</span> <span className='avail'>Available Now</span></div>
+        <div className='coffee-cards'>
         <Card />
+        </div>
     </div>
     </div>
   );
