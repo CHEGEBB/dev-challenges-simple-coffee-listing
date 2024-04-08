@@ -3,8 +3,13 @@ body{
     font-family: 'DM Sans', sans-serif;
     font-size: 16px;
     line-height: 1.5;
+    font-weight: 1rem;
     color: #333;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+h1{
+    font-size: 32px;
+    font-weight: 2rem;
 }
