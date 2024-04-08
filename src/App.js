@@ -1,9 +1,10 @@
+import bgCafeImage from './images/bg-cafe.jpg';
 
 function App() {
   return (
     <div className="App">
     <header className="App-header">
-      <img src={require('./images/bg-cafe').default} alt="header" />
+      <img src={bgCafeImage} alt="header" />
     </header>
    <div className="product-list">
 
