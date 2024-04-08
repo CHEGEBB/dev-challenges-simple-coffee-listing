@@ -54,11 +54,23 @@ h1 {
     background-color: #1B1D1F;
     color: #fff;
     height: 800px;
-    padding: 50px auto;
+   padding-top: 70px;
     width: 80%;
     text-align: center;
     margin-left: 200px;
     margin-top:160px;
     z-index: 2;
     border-radius: 10px;
+}
+.all-products {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+.products-row-one{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 50px;
 }
