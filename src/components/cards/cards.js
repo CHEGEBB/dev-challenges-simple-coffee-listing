@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import starsFill from './images/Star_fill.svg';
 import star from './images/Star.svg';
-import './Card.scss'
+import  './cards.scss'
 export const Card = () => {
   const [products, setProducts] = useState([])
 
