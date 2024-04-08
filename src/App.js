@@ -2,6 +2,9 @@
 function App() {
   return (
     <div className="App">
+    <header className="App-header">
+      <img src={require('./images/bg-cafe').default} alt="header" />
+    </header>
    <div className="product-list">
 
    <h1 clasName="heading">Our Collection</h1>
