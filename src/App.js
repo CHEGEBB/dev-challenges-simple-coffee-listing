@@ -14,7 +14,10 @@ function App() {
           different roast types and origins, expertly roasted in small batches
           and shipped fresh weekly.
         </p>
-        <div className='span-container'> <span className='all'>All Products</span> <span className='avail'>Available Now</span></div>
+        <div className="spans-container">
+        <button className="all-products">All Products</button>
+        <button className="available-now">Available Now</button>
+        </div>
         <div className='coffee-cards'>
         <Card />
         </div>

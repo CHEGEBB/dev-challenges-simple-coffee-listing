@@ -53,7 +53,7 @@ h1 {
 .product-list {
     background-color: #1B1D1F;
     color: #fff;
-    height: 900px;
+    height: 1000px;
    padding-top: 70px;
     width: 80%;
     text-align: center;
@@ -79,4 +79,28 @@ h1 {
     flex-direction: row;
     justify-content: space-around;
     margin-top: 50px;
+}
+.spans-container {
+  display: flex;
+  margin-top: 20px; /* Add margin between h3 and spans */
+  margin-bottom: 20px;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px;
+}
+button{
+    background-color: #FFDD57;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 20px;
+    height: 40px;
+    width: 150px;
+}
+.available-now{
+  margin-top: 50px;
 }
