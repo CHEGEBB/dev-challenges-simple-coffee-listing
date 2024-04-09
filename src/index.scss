@@ -12,12 +12,19 @@ body, html {
   line-height: 1.5;
   font-weight: 1rem;
   color: #6F757C;
-  width: 600px;
-  background-color: red;
-  margin-left: 100px;
+  width: 500px;
+  padding-left: -20px;
 
 }
-
+.unique{
+  background-image: url("./images/vector.svg");
+  background-repeat: no-repeat;
+  background-color: red;
+  width: 600px;
+  margin-left: 500px;
+  height: 200px;
+  
+}
 .container {
   position: relative;
   width: 100%;

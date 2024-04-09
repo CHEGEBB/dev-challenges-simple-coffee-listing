@@ -9,8 +9,10 @@ function App() {
   return (
     <div className="App">
       <div className="product-list">
+       
+        <div className="unique">
         <h1 className="heading">Our Collection</h1>
-        <div className="unique"><p>
+        <p>
           Introducing our Coffee Collection, a selection of unique coffees from
           different roast types and origins, expertly roasted in small batches
           and shipped fresh weekly.
