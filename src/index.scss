@@ -104,3 +104,23 @@ button{
 .available-now {
   margin-top: 50px;
 }
+// mobile design
+@media screen and (max-width: 1025px) {
+  .black-background{
+    height: 2500px;
+  }
+    .product-list {
+        width: 100%;
+        height: 2100px;
+    }
+    .product-list {
+        width: 100%;
+        margin-left: 0;
+    }
+    .products-row-one{
+        flex-direction: column;
+    }
+    .products-row-two{
+        flex-direction: column;
+    }
+}
