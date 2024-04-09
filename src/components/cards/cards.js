@@ -33,7 +33,7 @@ export const Card = () => {
                 {product.rating && product.rating > 4 && <img src={StarFill} alt='filled stars'/>}
                 {!product.rating && <img src={Star} alt='unfilled star'/>}
               </div>
-              <p className='rating'>{product.rating || 'Not rated'} {product.votes !==0 &&<span >({product.votes} votes)</span>}</p>
+              <p className='rating'>{product.rating || 'No ratings'} {product.votes !==0 &&<span >({product.votes} votes)</span>}</p>
               {!product.available && <p className='availability'>Sold Out</p>}
             </div>
           </div>
