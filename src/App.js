@@ -1,6 +1,7 @@
 import React from 'react';
 import {Card} from './components/cards/cards';
-import './cards.scss'
+import './components/cards/cards.scss';
+
 
 
 function App() {
