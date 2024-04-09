@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import './cards.scss';
 import StarFill from '../../images/Star_fill.svg';
 import Star from '../../images/Star.svg';
+import Vector from '../../images/vector.svg';
 
 
 export const Card = () => {
