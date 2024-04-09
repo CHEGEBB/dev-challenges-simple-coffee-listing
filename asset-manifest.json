@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/dev-challenges-simple-coffee-listing/static/css/main.186b1f34.css",
+    "main.js": "/dev-challenges-simple-coffee-listing/static/js/main.8f5c510f.js",
+    "static/media/bg-cafe.jpg": "/dev-challenges-simple-coffee-listing/static/media/bg-cafe.ed22aff1614ae837ee21.jpg",
+    "static/media/Star_fill.svg": "/dev-challenges-simple-coffee-listing/static/media/Star_fill.6a3dad060cdb5c863b8fcb3095239b5c.svg",
+    "static/media/Star.svg": "/dev-challenges-simple-coffee-listing/static/media/Star.e6c9605c61e0305626b0348906705ab8.svg",
+    "index.html": "/dev-challenges-simple-coffee-listing/index.html",
+    "main.186b1f34.css.map": "/dev-challenges-simple-coffee-listing/static/css/main.186b1f34.css.map",
+    "main.8f5c510f.js.map": "/dev-challenges-simple-coffee-listing/static/js/main.8f5c510f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.186b1f34.css",
+    "static/js/main.8f5c510f.js"
+  ]
+}
